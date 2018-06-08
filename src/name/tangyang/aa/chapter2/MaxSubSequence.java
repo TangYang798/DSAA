@@ -21,27 +21,32 @@ public class MaxSubSequence {
         System.out.println(getSumOfMaxSubSeq(numbers, length));
     }
 
+    //[94, -94, 54, 37, -88, 60, 6, 34, 23, 43, -28, 86, 6, -31, 1, -18, 99, 82, -65, -96]
+    //index  start 2  end 17
+    //366
     public static int getSumOfMaxSubSeq(int[] numbers, int length) {
         int maxSum = 0;
         int thisSum = 0;
-//        int start = -1;
-//        int end = -1;
-//        int tmpStart = -1;
-//        boolean flag = false;
+        int start = -1;
+        int end = -1;
+        int sum = 0;
         for (int i=0; i<length; i++) {
              thisSum += numbers[i];
              if (thisSum > maxSum) {
-//                 if (flag) start = i;
-//                 flag = false;
-//                 end = i;
+                 end = i;
                  maxSum = thisSum;
              } else if (thisSum < 0) {
-//                 flag = true;
-//                 tmpStart = i;
                  thisSum = 0;
              }
         }
-//        System.out.println("index  start " + start + "  end " + end);
+        for (int i = end; i > -1; i--) {
+            sum += numbers[i];
+            if (sum == maxSum) {
+                start = i;
+                break;
+            }
+        }
+        System.out.println("index  start " + start + "  end " + end);
         return maxSum;
     }
 }
