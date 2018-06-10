@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * horner method
+ * horner method p36
  * 霍纳法则求解多项式，似乎没毛病
  */
 public class HornerMethod {
