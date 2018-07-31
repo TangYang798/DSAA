@@ -8,12 +8,12 @@ public class CuckooHashTable<AnyType> {
     private AnyType[] array;
     private final int numHashFunctions;
     private final HashFamily<? super AnyType> hashFunctions;
-    private static final int DEFAULT_TABLE_SUZE = 10;
+    private static final int DEFAULT_TABLE_SIZE = 10;
     private static final int ALLOWED_REHASHES = 10;
     private static final double MAX_LOAD = 0.4;
 
     public CuckooHashTable (HashFamily<? super AnyType> hf) {
-        this(hf, DEFAULT_TABLE_SUZE);
+        this(hf, DEFAULT_TABLE_SIZE);
     }
 
     public CuckooHashTable(HashFamily<? super AnyType> hf, int size) {
