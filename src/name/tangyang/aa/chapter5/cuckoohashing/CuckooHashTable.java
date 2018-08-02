@@ -2,6 +2,10 @@ package name.tangyang.aa.chapter5.cuckoohashing;
 
 import java.util.Random;
 
+/**
+ * CuckooHashTable p138
+ * @param <AnyType>
+ */
 public class CuckooHashTable<AnyType> {
 
     private int currentSize;
