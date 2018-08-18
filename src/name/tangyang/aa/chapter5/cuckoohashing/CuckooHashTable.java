@@ -2,6 +2,8 @@ package name.tangyang.aa.chapter5.cuckoohashing;
 
 import java.util.Random;
 
+import static name.tangyang.aa.chapter5.forPrime.nextPrime;
+
 /**
  * CuckooHashTable p138
  * @param <AnyType>
@@ -124,25 +126,6 @@ public class CuckooHashTable<AnyType> {
         currentSize = 0;
         for (int i=0; i<array.length; i++)
             array[i] = null;
-    }
-
-    private int nextPrime(int n) {
-        if (n % 2 == 0)
-            n++;
-        for (; !isPrime(n); n+=2)
-            ;
-        return n;
-    }
-
-    private boolean isPrime(int n) {
-        if (n == 2 || n == 3)
-            return true;
-        if (n == 1 || n % 2 == 0)
-            return false;
-        for (int i=3; i*i<=n; i+=2)
-            if (n % i == 0)
-                return false;
-        return true;
     }
 
     private void allocateArray(int arraySize) {
