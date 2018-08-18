@@ -22,7 +22,7 @@ public class MaxSubSequence {
     }
 
     //[94, -94, 54, 37, -88, 60, 6, 34, 23, 43, -28, 86, 6, -31, 1, -18, 99, 82, -65, -96]
-    //index  start 2  end 17
+    //index  start 2  end 17 -- delete line 47
     //366
     public static int getSumOfMaxSubSeq(int[] numbers, int length) {
         int maxSum = 0;
@@ -43,7 +43,7 @@ public class MaxSubSequence {
             sum += numbers[i];
             if (sum == maxSum) {
                 start = i;
-                break;
+//                break;
             }
         }
         System.out.println("index  start " + start + "  end " + end);
