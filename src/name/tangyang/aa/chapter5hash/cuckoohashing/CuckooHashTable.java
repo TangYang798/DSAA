@@ -1,8 +1,8 @@
-package name.tangyang.aa.chapter5.cuckoohashing;
+package name.tangyang.aa.chapter5hash.cuckoohashing;
 
 import java.util.Random;
 
-import static name.tangyang.aa.chapter5.forPrime.nextPrime;
+import static name.tangyang.aa.chapter5hash.forPrime.nextPrime;
 
 /**
  * CuckooHashTable p138

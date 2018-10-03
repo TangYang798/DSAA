@@ -1,9 +1,9 @@
-package name.tangyang.aa.chapter5.separatechaining;
+package name.tangyang.aa.chapter5hash.separatechaining;
 
 import java.util.LinkedList;
 import java.util.List;
 
-import static name.tangyang.aa.chapter5.forPrime.nextPrime;
+import static name.tangyang.aa.chapter5hash.forPrime.nextPrime;
 
 /**
  * SeparateChainingHashTable p120

@@ -1,4 +1,4 @@
-package name.tangyang.aa.chapter5.cuckoohashing;
+package name.tangyang.aa.chapter5hash.cuckoohashing;
 
 import java.util.Random;
 

@@ -1,4 +1,4 @@
-package name.tangyang.aa.chapter2;
+package name.tangyang.aa.chapter2aa;
 
 public class TimeAnalysis {
     public static void main(String[] args) {

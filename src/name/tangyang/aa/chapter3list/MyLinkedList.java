@@ -1,4 +1,4 @@
-package name.tangyang.aa.chapter3;
+package name.tangyang.aa.chapter3list;
 
 import java.util.ConcurrentModificationException;
 import java.util.Iterator;

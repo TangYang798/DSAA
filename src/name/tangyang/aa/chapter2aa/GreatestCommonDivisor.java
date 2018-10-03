@@ -1,4 +1,4 @@
-package name.tangyang.aa.chapter2;
+package name.tangyang.aa.chapter2aa;
 
 /**
  * 求两个数最大公约数 p32

@@ -1,4 +1,4 @@
-package name.tangyang.aa.chapter3;
+package name.tangyang.aa.chapter3list;
 
 import java.util.Iterator;
 import java.util.NoSuchElementException;

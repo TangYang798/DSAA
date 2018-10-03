@@ -1,4 +1,4 @@
-package name.tangyang.aa.chapter5;
+package name.tangyang.aa.chapter5hash;
 
 public class forPrime {
 

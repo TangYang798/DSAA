@@ -1,4 +1,4 @@
-package name.tangyang.aa.chapter6;
+package name.tangyang.aa.chapter6heap;
 
 import java.util.NoSuchElementException;
 

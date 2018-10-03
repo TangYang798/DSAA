@@ -1,4 +1,4 @@
-package name.tangyang.aa.chapter7;
+package name.tangyang.aa.chapter7sort;
 
 /**
  * ShellSort p189
