@@ -2,7 +2,7 @@ package name.tangyang.aa.chapter7sort;
 
 /**
  * InsertionSort p187
- * @param <AnyType[]>
+ *
  */
 public class InsertionSort {
     public static <AnyType extends Comparable<? super AnyType>> void insertionSort(AnyType[] a) {

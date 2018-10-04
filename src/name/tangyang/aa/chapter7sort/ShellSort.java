@@ -2,7 +2,7 @@ package name.tangyang.aa.chapter7sort;
 
 /**
  * ShellSort p189
- * @param a
+ *
  */
 public class ShellSort {
     public static <AnyType extends Comparable<? super AnyType>> void shellSort(AnyType[] a) {
