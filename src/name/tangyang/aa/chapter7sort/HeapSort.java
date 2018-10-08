@@ -10,7 +10,7 @@ public class HeapSort {
         return 2 * i + 1;
     }
 
-    public static <AnyType> void swapReferefces(AnyType[] a, int p1, int p2) {
+    public static <AnyType> void swapReferences(AnyType[] a, int p1, int p2) {
         AnyType tmp = a[p1];
         a[p1] = a[p2];
         a[p2] = tmp;
@@ -39,7 +39,7 @@ public class HeapSort {
             percDown(a, i, a.length);
         }
         for (int i = a.length - 1; i > 0; i--) {
-            swapReferefces(a, 0, i);
+            swapReferences(a, 0, i);
             percDown(a, 0, i);
         }
     }
